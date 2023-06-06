@@ -36,3 +36,38 @@ for (let i = 10; i <= 20; i++){
 alert ("Bienvenido nuevamente: " + nombre + "\n" + "Tu entrega sera el dia:  " + dia + fecha )
 
 alert ("Gracias por visitarnos")
+
+
+// funciones declaradas
+function saludar ( cliente) {
+    console.log ("Hola " + nombre);
+}
+saludar("cliente");
+
+// CANTIDAD DE PRENDAS  
+
+var numero1 = prompt("Ingrese la cantidad de camisetas que desea:");
+var numero2 = prompt("Ingrese la cantidad de pantalones:");
+
+// Convertir los valores ingresados a números
+numero1 = parseFloat(numero1);
+numero2 = parseFloat(numero2);
+
+// Suma
+var suma = numero1 + numero2;
+alert("El total de prendas es: " + suma);
+
+
+// array
+
+const productos = ["Camiseta", "Short", "Medias", "Canilleras"];
+
+console.log (productos);
+console.log (productos[0])
+
+
+/* lenght */
+console.log (productos.length);
+for (let i = 0; i < productos.length; i++){
+    console.log(productos [i]);
+}
